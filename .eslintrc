@@ -1,0 +1,27 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "rules": {
+        "no-tabs": "off",
+        "indent": "off",
+        "array-bracket-spacing": "off",
+        "max-len": "off",
+        "newline-per-chained-call": "off",
+        "object-curly-newline": "off",
+        "arrow-parens": "off",
+        "operator-linebreak": "off",
+        "implicit-arrow-linebreak": "off",
+        "no-confusing-arrow": "off",
+        "one-var": "off",
+        "one-var-declaration-per-line": "off",
+        "require-await": "error"
+    }
+}
